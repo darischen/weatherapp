@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import InfoButton from "@/components/InfoButton";
 
 export const metadata: Metadata = {
-  title: "Weather • Next.js + SQL",
+  title: "Weather",
   description: "Real weather app with CRUD persistence (Prisma + SQL)",
 };
 
