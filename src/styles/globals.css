@@ -1,0 +1,27 @@
+/* src/styles/globals.css */
+@import "tailwindcss";
+
+/* Your own global styles are fine here */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.25);
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+/* Keep only plain CSS here—no @apply for gradient utilities */
+body {
+  background-attachment: fixed;
+}
+
+/* Simple glass card effect (pure CSS, no Tailwind @apply) */
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 1rem;
+}
