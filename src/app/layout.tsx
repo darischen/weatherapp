@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
 
           <footer className="text-sm opacity-70 py-6">
-            Demo app • Next.js + Prisma (SQLite) • Leaflet map • Optional YouTube + exports
+            Demo app • Next.js + Prisma (Postgresql) + Zod + Tailwind CSS
           </footer>
         </div>
       </body>
