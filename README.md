@@ -4,7 +4,7 @@ A modern, full-featured weather application built with Next.js and PostgreSQL. S
 
 ## Features
 
-### 🌍 Location Search
+### Location Search
 - **Smart Autocomplete**: Google Places integration with US bias (customize as needed)
 - **Multiple Input Methods**:
   - City, neighborhood, ZIP code, or address search
@@ -12,30 +12,30 @@ A modern, full-featured weather application built with Next.js and PostgreSQL. S
   - Current location detection via browser geolocation
 - **Fallback Geocoding**: OpenStreetMap + Open-Meteo when Google Places isn't available
 
-### 🌤️ Weather Information
+### Weather Information
 - Real-time weather data for any location
 - Current conditions display with key metrics
 - 7-day weather forecast
 - Temperature graphs and detailed forecasts
 
-### 🗺️ Interactive Map
+### Interactive Map
 - Leaflet-based map view showing the searched location
 - Zoom and pan controls
 - Quick location visualization
 
-### 📺 YouTube Integration
+### YouTube Integration
 - Popular YouTube videos related to the searched location
 - Video thumbnails and channel information
 - Direct links to YouTube
 
-### 💾 Location Records (CRUD)
+### Location Records (CRUD)
 Save and manage location searches with:
 - Date ranges (start and end dates)
 - Optional notes for each record
 - Create, read, update, and delete functionality
 - PostgreSQL backend for persistent storage
 
-### 📊 Data Export
+### Data Export
 Export all saved records in multiple formats:
 - **JSON** - For programmatic use
 - **CSV** - For spreadsheet analysis
